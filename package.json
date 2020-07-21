@@ -4,7 +4,7 @@
   "description": "[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "./start.sh"
   },
   "repository": {
     "type": "git",
