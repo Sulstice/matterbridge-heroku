@@ -18,7 +18,9 @@
 ########################################################################
 mkdir lib
 curl -L https://github.com/a8m/envsubst/releases/download/v1.2.0/envsubst-`uname -s`-`uname -m` -o lib/envsubst
+curl -L https://github.com/42wim/matterbridge/releases/download/v1.17.5/matterbridge-1.17.5-linux-64bit -o matterbridge
 chmod +x lib/envsubst
+chmod +x matterbridge
 lib/envsubst < config/config-heroku-template.toml > config/config-heroku.toml
 #
 ######################################
