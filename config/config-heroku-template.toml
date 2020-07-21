@@ -5,26 +5,13 @@
 #you'll need to give your bot the "Manage Roles" permission.
 Token="${DISCORD_TOKEN}"
 Server="${DISCORD_SERVER_ID}"
+WebhookURL="https://discord.com/api/webhooks/734961439189762069/8iSn9bLGfHrY9VpkEykaRwk4Clg5TnjdaEdIYem5VGE5rmTCsZvZho00MzPVxiY0Xgpy"
 RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
 
 [gitter.mygitter]
 #You can get your token by going to https://developer.gitter.im/docs/welcome and SIGN I"
 Token="${GIT_TOKEN}"
 RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
-
-
-#
-#[[gateway]]
-#    name = "reverse_gateway"
-#    enable=true
-#
-#    [[gateway.inout]]
-#    account = "gitter.mygitter"
-#    channel="general"
-#
-#    [[gateway.inout]]
-#    account ="discord.mydiscord"
-#    channel = "Cheminformatics/general"
 
 [[gateway]]
     name = "mygateway"
