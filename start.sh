@@ -22,7 +22,7 @@ curl -L https://github.com/42wim/matterbridge/releases/download/v1.17.5/matterbr
 chmod +x lib/envsubst
 chmod +x matterbridge
 lib/envsubst < config/config-heroku-template.toml > config/config-heroku.toml
-cat config/config-heroku.toml 
+cat config/config-heroku.toml
 #
 ######################################
 # Pass SIGTERM to Matterbridge proc #
