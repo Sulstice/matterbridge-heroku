@@ -4,7 +4,7 @@
   "description": "[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)",
   "main": "index.js",
   "scripts": {
-    "run": "./start.sh"
+    "start": "./start.sh"
   },
   "repository": {
     "type": "git",
